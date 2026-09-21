@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yuktikulaglb.in/sitemap.xml
+Sitemap: https://joat.yuktikulaglb.in/sitemap.xml
