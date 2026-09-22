@@ -1,5 +1,14 @@
+# Yuktikula Club — yuktikulaglb.in
+# Allow all crawlers full access
+
 User-agent: *
 Allow: /
 
+# Sitemap location (main domain only — JOAT subdomain has its own robots.txt)
 Sitemap: https://yuktikulaglb.in/sitemap.xml
-Sitemap: https://joat.yuktikulaglb.in/sitemap.xml
+
+# Block unnecessary assets from indexing
+User-agent: *
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /.git/
